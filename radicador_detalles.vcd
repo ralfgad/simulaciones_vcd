@@ -1,0 +1,70 @@
+$date
+	Tue Oct 05 13:32:03 2021
+$end
+$version
+	QuestaSim Version 2020.2
+$end
+$timescale
+	1ps
+$end
+$scope module prueba_radicador $end
+$scope module duv $end
+$scope module radicador_duv $end
+$var wire 1 ! CLK $end
+$var wire 1 " START $end
+$var wire 1 # RESET $end
+$upscope $end
+$upscope $end
+$scope module interfaz $end
+$scope module sd $end
+$var reg 1 $ empieza $end
+$upscope $end
+$scope module md $end
+$var reg 1 % empieza $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+x"
+1#
+b0 $
+bx %
+0!
+1#
+b0 $
+#1000
+0#
+#50000
+1!
+#52000
+0"
+#100000
+0!
+1#
+#150000
+1!
+b0 %
+#200000
+0!
+#250000
+1!
+b1 $
+#252000
+1"
+#300000
+0!
+#350000
+1!
+b1 %
+b0 $
+#352000
+0"
+#400000
+0!
+#450000
+1!
+b0 %
+#500000
+0!
