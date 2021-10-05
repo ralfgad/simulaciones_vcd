@@ -1,5 +1,5 @@
 $date
-	Tue Oct 05 13:42:20 2021
+	Tue Oct 05 13:59:26 2021
 $end
 $version
 	QuestaSim Version 2020.2
@@ -17,10 +17,10 @@ $upscope $end
 $upscope $end
 $scope module interfaz $end
 $scope module sd $end
-$var reg 1 $ empieza_sd $end
+$var reg 1 $ empieza $end
 $upscope $end
 $scope module md $end
-$var reg 1 % empieza_md $end
+$var reg 1 % empieza $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -38,33 +38,37 @@ b0 $
 0#
 #50000
 1!
-#52000
-0"
 #100000
 0!
 1#
+#148000
+0"
 #150000
 1!
-b0 %
 #200000
 0!
 #250000
 1!
+b0 %
 b1 $
-#252000
-1"
 #300000
 0!
+#348000
+1"
 #350000
 1!
-b1 %
 b0 $
-#352000
-0"
 #400000
 0!
+#448000
+0"
 #450000
 1!
-b0 %
+b1 %
 #500000
+0!
+#550000
+1!
+b0 %
+#600000
 0!
