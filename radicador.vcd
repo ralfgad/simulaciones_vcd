@@ -1,0 +1,162 @@
+$date
+	Thu Oct 11 13:19:14 2018
+$end
+$version
+	QuestaSim Version 10.4
+$end
+$timescale
+	1ps
+$end
+
+$scope module prueba_radicador $end
+
+$scope module estim1 $end
+$var wire 1 ! CLK $end
+$var wire 1 " FIN $end
+$var wire 1 # COUNT [3] $end
+$var wire 1 $ COUNT [2] $end
+$var wire 1 % COUNT [1] $end
+$var wire 1 & COUNT [0] $end
+$var reg 1 ' START $end
+$var reg 8 ( X [7:0] $end
+$var reg 4 ) target [3:0] $end
+$var reg 4 * pretarget [3:0] $end
+$var reg 4 + salida_obtenida [3:0] $end
+$var reg 1 , FINAL $end
+
+$scope unknown sd $end
+$var reg 1 - <sd_input_FIN> $end
+$var reg 4 . <sd_input_COUNT> [3:0] $end
+$var reg 8 / X [7:0] $end
+$var reg 1 0 START $end
+$var reg 4 1 COUNT [3:0] $end
+$var reg 1 2 FIN $end
+$var event 1 3 sd_event $end
+$upscope $end
+
+$scope unknown md $end
+$var reg 8 4 <md_input_X> [7:0] $end
+$var reg 1 5 <md_input_START> $end
+$var reg 1 6 <md_input_FIN> $end
+$var reg 4 7 <md_input_COUNT> [3:0] $end
+$var reg 4 8 COUNT [3:0] $end
+$var reg 1 9 FIN $end
+$var reg 1 : START $end
+$var reg 8 ; X [7:0] $end
+$var event 1 < md_event $end
+$upscope $end
+
+$scope task monitor_input $end
+$upscope $end
+
+$scope task monitor_output $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x'
+bx (
+bx )
+bx *
+bx +
+x,
+x-
+bx .
+b11001 /
+00
+bx 1
+x2
+bx 4
+x5
+x6
+bx 7
+bx 8
+x9
+x:
+bx ;
+13
+1<
+x&
+x%
+x$
+x#
+0"
+0!
+$end
+#1001
+0-
+#5001
+06
+#50000
+1!
+02
+09
+13
+1<
+#51000
+b11001 (
+#56001
+b11001 4
+#100000
+0!
+#148000
+0'
+#150000
+1!
+b11001 ;
+13
+1<
+#153001
+05
+#200000
+0!
+#250000
+1!
+0:
+13
+1<
+10
+#300000
+0!
+#348000
+1'
+#350000
+1!
+13
+1<
+00
+#353001
+15
+#400000
+0!
+#448000
+0'
+#450000
+1!
+0&
+0%
+0$
+0#
+1:
+13
+1<
+b101 *
+#451001
+b0 .
+#453001
+05
+#455001
+b0 7
+#500000
+0!
+#550000
+1!
+b0 1
+0:
+b0 8
+13
+1<
+#600000
+0!
