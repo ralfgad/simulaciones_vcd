@@ -17,10 +17,10 @@ $upscope $end
 $upscope $end
 $scope module interfaz $end
 $scope module sd $end
-$var reg 1 $ empieza $end
+$var reg 1 $ empieza_sd $end
 $upscope $end
 $scope module md $end
-$var reg 1 % empieza $end
+$var reg 1 % empieza_md $end
 $upscope $end
 $upscope $end
 $upscope $end
