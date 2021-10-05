@@ -1,0 +1,24 @@
+$date
+	Tue Oct 05 13:29:02 2021
+$end
+$version
+	QuestaSim Version 2020.2
+$end
+$timescale
+	1ps
+$end
+$scope module prueba_radicador $end
+$scope module interfaz $end
+$scope module sd $end
+$var reg 1 ! empieza $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0 !
+b0 !
+#250000
+b1 !
+#350000
+b0 !
