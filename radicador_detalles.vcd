@@ -12,7 +12,7 @@ $scope module duv $end
 $scope module radicador_duv $end
 $var wire 1 ! CLK $end
 $var wire 1 " START $end
-$var wire 1 # RESET $end
+
 $upscope $end
 $upscope $end
 $scope module interfaz $end
