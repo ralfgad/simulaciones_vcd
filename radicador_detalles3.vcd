@@ -1,5 +1,5 @@
 $date
-	Thu Oct 07 14:42:48 2021
+	Thu Oct 07 14:50:52 2021
 $end
 $version
 	QuestaSim Version 2020.2
@@ -10,7 +10,7 @@ $end
 $scope module prueba_radicador $end
 $scope module DUV $end
 $var wire 1 ! CLK $end
-$var wire 1 " X [7:0] $end
+$var wire 1 " X [7] $end
 $var wire 1 # X [6] $end
 $var wire 1 $ X [5] $end
 $var wire 1 % X [4] $end
