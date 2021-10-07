@@ -11,7 +11,7 @@ $scope module prueba_radicador $end
 $scope module DUV $end
 $var wire 1 ! CLK $end
 
-$var reg 8  ) X [7:0] $end
+$var reg 8 ) X [7:0] $end
 $upscope $end
 $scope module estim1 $end
 $scope module sd $end
