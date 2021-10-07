@@ -10,14 +10,7 @@ $end
 $scope module prueba_radicador $end
 $scope module DUV $end
 $var wire 1 ! CLK $end
-$var wire 1 " X [7] $end
-$var wire 1 # X [6] $end
-$var wire 1 $ X [5] $end
-$var wire 1 % X [4] $end
-$var wire 1 & X [3] $end
-$var wire 1 ' X [2] $end
-$var wire 1 ( X [1] $end
-$var wire 1 ) X [0] $end
+$var wire 1 ) X [7:0] $end
 $upscope $end
 $scope module estim1 $end
 $scope module sd $end
