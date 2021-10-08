@@ -11,15 +11,22 @@ $scope module prueba_radicador $end
 $scope module duv $end
 $scope module radicador_duv $end
 $var wire 1 ! CLK $end
-$var wire 8 ) X [0] $end
+$var wire 1 " X [7] $end
+$var wire 1 # X [6] $end
+$var wire 1 $ X [5] $end
+$var wire 1 % X [4] $end
+$var wire 1 & X [3] $end
+$var wire 1 ' X [2] $end
+$var wire 1 ( X [1] $end
+$var wire 1 ) X [0] $end
 $upscope $end
 $upscope $end
 $scope module interfaz $end
 $scope module md $end
-$var reg 8 * interfaz_md_data_in [7:0] $end
+$var reg 8 * data_in [7:0] $end
 $upscope $end
 $scope module sd $end
-$var reg 8 + interfaz_sd_data_in [7:0] $end
+$var reg 8 + data_in [7:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -33,7 +40,7 @@ x%
 x&
 x'
 x(
-bx )
+x)
 bx *
 b11001 +
 0!
@@ -48,7 +55,7 @@ b11001 +
 1&
 0'
 0(
-b11001 )
+1)
 #100000
 0!
 #150000
