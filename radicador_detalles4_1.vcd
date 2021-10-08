@@ -16,10 +16,10 @@ $upscope $end
 $upscope $end
 $scope module interfaz $end
 $scope module md $end
-$var reg 8 * data_in [7:0] $end
+$var reg 8 * interfaz_md_data_in [7:0] $end
 $upscope $end
 $scope module sd $end
-$var reg 8 + data_in [7:0] $end
+$var reg 8 + interfaz_sd_data_in [7:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
