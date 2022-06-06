@@ -7,22 +7,15 @@ $end
 $timescale
 	1ps
 $end
-$scope module prueba_radicador $end
-$scope module duv $end
-$scope module radicador_duv $end
+
 $var wire 1 ! CLK $end
 $var wire 1 " START $end
-$upscope $end
-$upscope $end
-$scope module interfaz $end
-$scope module sd $end
+
+
 $var reg 1 # empieza_interfaz_sd_ $end
-$upscope $end
-$scope module md $end
+
 $var reg 1 $ empieza_interfaz_md $end
-$upscope $end
-$upscope $end
-$upscope $end
+
 $enddefinitions $end
 #0
 0!
