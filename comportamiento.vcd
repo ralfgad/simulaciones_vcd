@@ -13,6 +13,8 @@ $scope module divisor_duv $end
 $var wire 1 ! CLK $end
 $var wire 1 " RSTa $end
 $var wire 1 # Start $end
+$var reg 32 a Num [31:0] $end
+$var reg 32 b Den [31:0] $end
 $var reg 32 $ Coc [31:0] $end
 $var reg 32 % Res [31:0] $end
 $var wire 1 & Done $end
@@ -27,6 +29,8 @@ $enddefinitions $end
 x#
 bx $
 bx %
+bx a
+bx b
 0&
 bx0 '
 0!
@@ -47,6 +51,8 @@ bx0 '
 #60
 0!
 #70
+h8ffcfdc8 a
+h82fc0db45 b
 1!
 #72
 1#
@@ -399,6 +405,8 @@ bx0 '
 #1450
 1!
 #1452
+hf150cbf1 a
+h54be07ff b
 1#
 #1460
 0!
