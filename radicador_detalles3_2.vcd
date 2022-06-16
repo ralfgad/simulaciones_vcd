@@ -7,21 +7,17 @@ $end
 $timescale
 	1ps
 $end
-$scope module prueba_radicador $end
-$scope module DUV $end
+
+
 $var wire 1 ! CLK $end
 
 $var reg 8 ) X [7:0] $end
-$upscope $end
-$scope module estim1 $end
-$scope module sd $end
+
 $var reg 8 * X_sd [7:0] $end
-$upscope $end
-$scope module md $end
+
+
 $var reg 8 + X_md [7:0] $end
-$upscope $end
-$upscope $end
-$upscope $end
+
 $enddefinitions $end
 #0
 0!
