@@ -14,7 +14,6 @@ $var wire 8 ) X [7:0] $end
 $var reg 8 * interfaz_md_data_in [7:0] $end
 
 $var reg 8 + interfaz_sd_data_in [7:0] $end
-
 $enddefinitions $end
 #0
 0!
