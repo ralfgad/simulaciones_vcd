@@ -21,7 +21,14 @@ $var reg 5 / USE_DW [4:0] $end
 $var reg 1 0 F_EMPTY_N $end
 $var reg 1 1 F_FULL_N $end
 $var reg 8 2 DATA_IN_LOGIC [7:0] $end
-
+$var wire 1 $ DATA_IN [7] $end
+$var wire 1 % DATA_IN [6] $end
+$var wire 1 & DATA_IN [5] $end
+$var wire 1 ' DATA_IN [4] $end
+$var wire 1 ( DATA_IN [3] $end
+$var wire 1 ) DATA_IN [2] $end
+$var wire 1 * DATA_IN [1] $end
+$var wire 1 + DATA_IN [0] $end
 
 $enddefinitions $end
 #0
