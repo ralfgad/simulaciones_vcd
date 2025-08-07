@@ -13,10 +13,10 @@ $scope module tb1 $end
 $scope module DUV $end
 $var wire 1 ! ck $end
 $var wire 1 " ein $end
-$var reg 32 # din [31:0] $end
-$var reg 32 % dout [31:0] $end
 $var reg 1 * sd_ein $end
+$var reg 32 # din [31:0] $end
 $var reg 32 ' sd_din [31:0] $end
+$var reg 32 % dout [31:0] $end
 $var reg 32 ) sd_dout [31:0] $end
 
 $upscope $end
