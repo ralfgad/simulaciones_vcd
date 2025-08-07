@@ -19,13 +19,6 @@ $var reg 1 * sd_ein $end
 $var reg 32 ' sd_din [31:0] $end
 $var reg 32 ) sd_dout [31:0] $end
 
-
-$scope begin sd $end
-$var event 1 + sd_event $end
-$var reg 32 , din [31:0] $end
-$var reg 32 - dout [31:0] $end
-$var reg 1 . ein $end
-$upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
