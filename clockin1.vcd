@@ -1,5 +1,5 @@
 $date
-	Thu Aug  7 04:34:09 2025
+	Thu Aug  7 04:43:36 2025
 $end
 $version
 	QuestaSim Version 2024.3_1
@@ -12,83 +12,21 @@ $scope module tb1 $end
 
 $scope module DUV $end
 $var wire 1 ! ck $end
-$var wire 1 " din [31] $end
-$var wire 1 # din [30] $end
-$var wire 1 $ din [29] $end
-$var wire 1 % din [28] $end
-$var wire 1 & din [27] $end
-$var wire 1 ' din [26] $end
-$var wire 1 ( din [25] $end
-$var wire 1 ) din [24] $end
-$var wire 1 * din [23] $end
-$var wire 1 + din [22] $end
-$var wire 1 , din [21] $end
-$var wire 1 - din [20] $end
-$var wire 1 . din [19] $end
-$var wire 1 / din [18] $end
-$var wire 1 0 din [17] $end
-$var wire 1 1 din [16] $end
-$var wire 1 2 din [15] $end
-$var wire 1 3 din [14] $end
-$var wire 1 4 din [13] $end
-$var wire 1 5 din [12] $end
-$var wire 1 6 din [11] $end
-$var wire 1 7 din [10] $end
-$var wire 1 8 din [9] $end
-$var wire 1 9 din [8] $end
-$var wire 1 : din [7] $end
-$var wire 1 ; din [6] $end
-$var wire 1 < din [5] $end
-$var wire 1 = din [4] $end
-$var wire 1 > din [3] $end
-$var wire 1 ? din [2] $end
-$var wire 1 @ din [1] $end
-$var wire 1 A din [0] $end
-$var wire 1 B dout [31] $end
-$var wire 1 C dout [30] $end
-$var wire 1 D dout [29] $end
-$var wire 1 E dout [28] $end
-$var wire 1 F dout [27] $end
-$var wire 1 G dout [26] $end
-$var wire 1 H dout [25] $end
-$var wire 1 I dout [24] $end
-$var wire 1 J dout [23] $end
-$var wire 1 K dout [22] $end
-$var wire 1 L dout [21] $end
-$var wire 1 M dout [20] $end
-$var wire 1 N dout [19] $end
-$var wire 1 O dout [18] $end
-$var wire 1 P dout [17] $end
-$var wire 1 Q dout [16] $end
-$var wire 1 R dout [15] $end
-$var wire 1 S dout [14] $end
-$var wire 1 T dout [13] $end
-$var wire 1 U dout [12] $end
-$var wire 1 V dout [11] $end
-$var wire 1 W dout [10] $end
-$var wire 1 X dout [9] $end
-$var wire 1 Y dout [8] $end
-$var wire 1 Z dout [7] $end
-$var wire 1 [ dout [6] $end
-$var wire 1 \ dout [5] $end
-$var wire 1 ] dout [4] $end
-$var wire 1 ^ dout [3] $end
-$var wire 1 _ dout [2] $end
-$var wire 1 ` dout [1] $end
-$var wire 1 a dout [0] $end
-$var wire 1 b ein $end
-$var reg 32 c din_reg [31:0] $end
-$var reg 1 d ein_reg $end
-$var reg 32 e sd_din [31:0] $end
-$var reg 32 f sd_din_reg [31:0] $end
-$var reg 32 g sd_dout [31:0] $end
-$var reg 1 h sd_ein $end
+$var wire 1 " ein $end
+$var reg 32 # din [31:0] $end
+$var reg 32 $ din_reg [31:0] $end
+$var reg 32 % dout [31:0] $end
+$var reg 1 & ein_reg $end
+$var reg 32 ' sd_din [31:0] $end
+$var reg 32 ( sd_din_reg [31:0] $end
+$var reg 32 ) sd_dout [31:0] $end
+$var reg 1 * sd_ein $end
 
 $scope begin sd $end
-$var event 1 i sd_event $end
-$var reg 32 j din [31:0] $end
-$var reg 32 k dout [31:0] $end
-$var reg 1 l ein $end
+$var event 1 + sd_event $end
+$var reg 32 , din [31:0] $end
+$var reg 32 - dout [31:0] $end
+$var reg 1 . ein $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -96,269 +34,164 @@ $enddefinitions $end
 #0
 $dumpvars
 0!
-0A
-0@
-0?
-0>
-0=
-0<
-0;
-0:
-09
-08
-07
-06
-05
-04
-03
-02
-01
-00
-0/
-0.
-0-
-0,
-0+
-0*
-0)
-0(
-0'
-0&
-0%
-0$
-0#
-0"
-xb
-za
-z`
-z_
-z^
-z]
-z\
-z[
-zZ
-zY
-zX
-zW
-zV
-zU
-zT
-zS
-zR
-zQ
-zP
-zO
-zN
-zM
-zL
-zK
-zJ
-zI
-zH
-zG
-zF
-zE
-zD
-zC
-zB
-bx c
-xd
-bx e
-bx f
-bz g
-xh
-1i
-bx j
-bz k
-xl
+x"
+b0 #
+bx $
+bx %
+x&
+bx '
+bx (
+bx )
+x*
+1+
+bx ,
+bx -
+x.
 $end
 #5000
 1!
-1A
-b0 c
-b0 j
-1i
-b0 e
-b11001 k
-b11001 g
+b1 #
+b0 $
+b0 ,
+1+
+b0 '
+b11001 -
+b11001 )
 #8000
-1a
-0`
-0_
-1^
-1]
-0\
-0[
-0Z
-0Y
-0X
-0W
-0V
-0U
-0T
-0S
-0R
-0Q
-0P
-0O
-0N
-0M
-0L
-0K
-0J
-0I
-0H
-0G
-0F
-0E
-0D
-0C
-0B
+b11001 %
 #10000
 0!
 #15000
 1!
-0A
-1@
-b0 f
-b1 c
-b1 j
-1i
-b1 e
-b100001 k
-b100001 g
+b10 #
+b0 (
+b1 $
+b1 ,
+1+
+b1 '
+b100001 -
+b100001 )
 #18000
-0^
-0]
-1\
+b100001 %
 #20000
 0!
 #24000
-1b
+1"
 #25000
 1!
-1A
-b1 f
-b10 c
-1d
-b10 j
-1i
-b10 e
+b11 #
+b1 (
+b10 $
+1&
+b10 ,
+1+
+b10 '
 #30000
 0!
 #34000
-0b
+0"
 #35000
 1!
-0A
-0@
-1?
-b10 f
-b11 c
-0d
-1l
-b11 j
-1i
-b11 e
-1h
+b100 #
+b10 (
+b11 $
+0&
+1.
+b11 ,
+1+
+b11 '
+1*
 #40000
 0!
 #45000
 1!
-1A
-b11 f
-b100 c
-0l
-b100 j
-1i
-b100 e
-0h
+b101 #
+b11 (
+b100 $
+0.
+b100 ,
+1+
+b100 '
+0*
 #50000
 0!
 #55000
 1!
-0A
-1@
-b100 f
-b101 c
-b101 j
-1i
-b101 e
+b110 #
+b100 (
+b101 $
+b101 ,
+1+
+b101 '
 #60000
 0!
 #65000
 1!
-1A
-b101 f
-b110 c
-b110 j
-1i
-b110 e
+b111 #
+b101 (
+b110 $
+b110 ,
+1+
+b110 '
 #70000
 0!
 #75000
 1!
-0A
-0@
-0?
-1>
-b110 f
-b111 c
-b111 j
-1i
-b111 e
+b1000 #
+b110 (
+b111 $
+b111 ,
+1+
+b111 '
 #80000
 0!
 #85000
 1!
-1A
-b111 f
-b1000 c
-b1000 j
-1i
-b1000 e
+b1001 #
+b111 (
+b1000 $
+b1000 ,
+1+
+b1000 '
 #90000
 0!
 #95000
 1!
-0A
-1@
-b1000 f
-b1001 c
-b1001 j
-1i
-b1001 e
+b1010 #
+b1000 (
+b1001 $
+b1001 ,
+1+
+b1001 '
 #100000
 0!
 #105000
 1!
-1A
-b1001 f
-b1010 c
-b1010 j
-1i
-b1010 e
+b1011 #
+b1001 (
+b1010 $
+b1010 ,
+1+
+b1010 '
 #110000
 0!
 #115000
 1!
-0A
-0@
-1?
-b1010 f
-b1011 c
-b1011 j
-1i
-b1011 e
+b1100 #
+b1010 (
+b1011 $
+b1011 ,
+1+
+b1011 '
 #120000
 0!
 #125000
 1!
-1A
-b1011 f
-b1100 c
-b1100 j
-1i
-b1100 e
+b1101 #
+b1011 (
+b1100 $
+b1100 ,
+1+
+b1100 '
 #130000
 0!
