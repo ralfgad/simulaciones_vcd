@@ -13,16 +13,16 @@ $scope module FIFO_tb_v0 $end
 $scope module DUV $end
 $var parameter 32 ! DEPTH $end
 $var parameter 32 " WIDTH $end
-$var reg 1 # CLEAR_N $end
+$var reg 1 * RESET_N $end
 $var reg 1 $ CLOCK $end
 $var reg 8 % DATA_IN [7:0] $end
 $var reg 8 & DATA_OUT [7:0] $end
+$var reg 1 ) READ $end
+$var reg 1 , WRITE $end
+$var reg 6 + USE_DW [5:0] $end
 $var reg 1 ' F_EMPTY_N $end
 $var reg 1 ( F_FULL_N $end
-$var reg 1 ) READ $end
-$var reg 1 * RESET_N $end
-$var reg 6 + USE_DW [5:0] $end
-$var reg 1 , WRITE $end
+$var reg 1 # CLEAR_N $end
 
 $scope begin sobrellenado $end
 $upscope $end
