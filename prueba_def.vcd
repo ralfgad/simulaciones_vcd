@@ -10,25 +10,13 @@ $end
 
 $scope module fifo_interfaz $end
 $var integer 32 '! clk $end
-$var reg 1 (! rst_a $end
-$var reg 1 )! rst_s $end
-$var reg 1 *! lleno $end
-$var reg 1 +! vacio $end
-$var reg 1 ,! rd_en $end
+
 $var reg 1 -! wr_en $end
-$var reg 8 .! use_dw [7:0] $end
-$var reg 64 /! data_in [63:0] $end
-$var reg 64 0! data_out [63:0] $end
+
 $scope module px $end
-$var reg 1 1! rst_s $end
-$var reg 1 2! rst_a $end
+
 $var reg 1 3! wr_en $end
-$var reg 1 4! rd_en $end
-$var reg 8 5! use_dw [7:0] $end
-$var reg 1 6! vacio $end
-$var reg 1 7! lleno $end
-$var reg 64 8! data_in [63:0] $end
-$var reg 64 9! data_out [63:0] $end
+
 $upscope $end
 $scope module tx $end
 $var reg 1 :! wr_en $end
@@ -36,11 +24,7 @@ $var reg 1 ;! rd_en $end
 $var reg 64 <! data_in [63:0] $end
 $var reg 1 =! rst_s $end
 $upscope $end
-$scope module neg_event $end
-$var reg 1 >! rst_a $end
-$upscope $end
-$upscope $end
-$upscope $end
+
 
 $enddefinitions $end
 #0
