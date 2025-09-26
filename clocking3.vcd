@@ -11,12 +11,11 @@ $end
 $scope module fifo_interfaz $end
 $var integer 32 '! clk $end
 $var reg 1 -! wr_en $end
-$scope module px $end
-
-$var reg 1 3! wr_en $end
-$upscope $end
 $scope module tx $end
 $var reg 1 :! wr_en $end
+$upscope $end
+$scope module px $end
+$var reg 1 3! wr_en $end
 $upscope $end
 $upscope $end
 
@@ -752,3 +751,4 @@ b0 '!
 0<
 b0 8
 b0 ;!
+
